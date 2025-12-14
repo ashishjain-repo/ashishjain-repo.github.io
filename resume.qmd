@@ -7,7 +7,7 @@ System Developer, Software Engineer.
 
 <div id="webaddress">
 <a href="mailto:ashish@ashjain.com">ashish@ashjain.com</a><br>
-651-235-2629
+651-235-2629<br>
 <a href="http://github.com/ashishjain-repo">github.com/ashishjain-repo</a><br>
 <a href="http://linkedin.com/in/ashishjain1008">linkedin.com/in/ashishjain1008</a><br>
 <a href="http://ashjain.com">ashjain.com</a><br>
@@ -20,9 +20,9 @@ System Developer, Software Engineer.
 __Brigham Young University - Idaho__, Rexburg, ID
 
 - Bachelor of Science in Computer Science
-- Minor: Web Development
+- Minor: Web Development, Mathematics
 - Concentration: Machine Learning
-- GPA: $3.9/4.0$
+- GPA: $3.95/4.0$
 
 ## Experience
 
@@ -35,7 +35,7 @@ __The Church of Jesus Christ of Latter-day Saints__, Salt Lake City, UT
 
 ### System Developer
 `May 2025 - Present`
-__Brigham Young University Idaho__, Rexburg, ID
+__Brigham Young University - Idaho (Support Center)__, Rexburg, ID
 
 - Automated BYUI Support Center workflows and maintained legacy Java Spring Boot applications.
 - Developed Team Dynamix iPaaS solutions, reducing manual intervention by 50%.
