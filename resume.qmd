@@ -6,11 +6,11 @@ title: Ashish Jain's Resume
 System Developer, Software Engineer.
 
 <div id="webaddress">
-<a href="mailto:ashish@ashjain.com">ashish@ashjain.com</a>
-| 651-235-2629
-| <a href="http://github.com/ashishjain-repo">github.com/ashishjain-repo</a>
-| <a href="http://linkedin.com/in/ashishjain1008">linkedin.com/in/ashishjain1008</a>
-| <a href="http://ashjain.com">ashjain.com</a>
+<a href="mailto:ashish@ashjain.com">ashish@ashjain.com</a><br>
+651-235-2629
+<a href="http://github.com/ashishjain-repo">github.com/ashishjain-repo</a><br>
+<a href="http://linkedin.com/in/ashishjain1008">linkedin.com/in/ashishjain1008</a><br>
+<a href="http://ashjain.com">ashjain.com</a><br>
 </div>
 
 
@@ -25,6 +25,13 @@ __Brigham Young University - Idaho__, Rexburg, ID
 - GPA: $3.9/4.0$
 
 ## Experience
+
+### Software Engineer Intern
+`Upcoming April 2026`
+__The Church of Jesus Christ of Latter-day Saints__, Salt Lake City, UT
+
+- Migrating the existing Angular codebase to React, with also consuming existing API's
+- Helping with database design and query optimization.
 
 ### System Developer
 `May 2025 - Present`
