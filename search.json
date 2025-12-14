@@ -124,44 +124,30 @@
   {
     "objectID": "resume.html",
     "href": "resume.html",
-    "title": "Isaac Newtons’s CV",
+    "title": "Ashish Jain’s Resume",
     "section": "",
-    "text": "Physicist, Mathematician, Cambridge professor.\n\nisaac@applesdofall.org | My wikipedia page\n\n\n\nStanding on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples.\n\n\n\n\n1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow\n\n\n\n\n2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France\n\n\n\n\n\n\n1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001\n\n\n\n\n1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
-  },
-  {
-    "objectID": "resume.html#currently",
-    "href": "resume.html#currently",
-    "title": "Isaac Newtons’s CV",
-    "section": "",
-    "text": "Standing on the shoulders of giants\n\n\nLaws of motion, gravitation, minting coins, disliking Robert Hooke\n\n\n\nCooling, power series, optics, alchemy, planetary motions, apples."
+    "text": "System Developer, Software Engineer.\n\nashish@ashjain.com | 651-235-2629 | github.com/ashishjain-repo | linkedin.com/in/ashishjain1008 | ashjain.com\n\n\n\nExpected Dec 2026 Brigham Young University - Idaho, Rexburg, ID\n\nBachelor of Science in Computer Science\nMinor: Web Development\nConcentration: Machine Learning\nGPA: \\(3.9/4.0\\)\n\n\n\n\n\n\nMay 2025 - Present Brigham Young University Idaho, Rexburg, ID\n\nAutomated BYUI Support Center workflows and maintained legacy Java Spring Boot applications.\nDeveloped Team Dynamix iPaaS solutions, reducing manual intervention by 50%.\nImplemented Genesys support and troubleshot complex system issues in production environments.\nStreamlined internal processes.\n\n\n\n\nMay 2025 - Jul 2025 Vivacity Tech PBC, St. Paul, MN\n\nMaintained and enhanced the customer-facing application for managing device telemetry and incident reporting.\nDeveloped new features using React.js, Express.js, Redis, and PostgreSQL that automated incident reporting, improving response efficiency.\nCollaborated with a cross-functional team in an Agile development using Jira and Confluence.\n\n\n\n\nApr 2024 - Present Brigham Young University Idaho, Rexburg, ID\n\nMentor 100+ students in advanced SQL, database design, and optimization, contributing to 20% higher success rates.\nConduct weekly lab sessions and provide one-on-one tutoring on complex database concepts.\n\n\n\n\nSep 2024 - Nov 2024 UpUnikSelf Inc., Dover, DE\n\nBuilt responsive B2B platform with Next.js and TypeScript, integrating 100+ database tables.\nOptimized performance: 40% reduced API latency, 30% smaller bundle size, and 35% faster queries.\nImplemented responsive design and worked with backend teams to design efficient API endpoints.\n\n\n\n\n\n\n\nExpected Dec 2026\n\nEngineered a full-stack IoT platform using a Java Spring Boot RestAPI Backend and a Vue.js frontend with TailwindCSS and Pinia.\nArchitected a real-time data ingestion system using Mosquitto MQTT, storing data in a PostgreSQL database configured with a Primary/Replica architecture for scalability.\nImplemented Redis caching to optimize data retrieval and a robust, role-based access control system.\n\n\n\n\n\nDesigned and developed a responsive landing page using modern Vue.js frontend and TailwindCSS.\nIntegrated a serverless backend with Cloudflare Workers to manage API endpoints and automate dynamic functions like contact form submissions.\nImplemented a component-based architecture and managed application state with Pinia.\n\n\n\n\n\nDeveloped a collaborative floor booking platform for students, simplifying the apartment search and application process.\nUtilized SvelteKit for the frontend and Supabase (BaaS) for real-time data management, authentication, and file storage.\nArchitected a GraphQL API to provide a single, flexible endpoint for data fetching, reducing over-fetching and improving application speed.\n\n\n\n\n\nDeveloped a Vue.js web app with TMDB API integration, optimized caching, and reduced load times by 30%.\nImplemented modular architecture and CI/CD pipeline deployment on Netlify with a responsive design."
   },
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
-    "title": "Isaac Newtons’s CV",
+    "title": "Ashish Jain’s Resume",
     "section": "",
-    "text": "1654-1660 The King’s School, Grantham.\nJune 1661 - now Trinity College, Cambridge\n\nSizar\n\n1667 - death Trinity College, Cambridge\n\nFellow"
+    "text": "Expected Dec 2026 Brigham Young University - Idaho, Rexburg, ID\n\nBachelor of Science in Computer Science\nMinor: Web Development\nConcentration: Machine Learning\nGPA: \\(3.9/4.0\\)"
   },
   {
-    "objectID": "resume.html#awards",
-    "href": "resume.html#awards",
-    "title": "Isaac Newtons’s CV",
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Ashish Jain’s Resume",
     "section": "",
-    "text": "2012 President, Royal Society, London, UK\nAssociate, French Academy of Science, Paris, France"
+    "text": "May 2025 - Present Brigham Young University Idaho, Rexburg, ID\n\nAutomated BYUI Support Center workflows and maintained legacy Java Spring Boot applications.\nDeveloped Team Dynamix iPaaS solutions, reducing manual intervention by 50%.\nImplemented Genesys support and troubleshot complex system issues in production environments.\nStreamlined internal processes.\n\n\n\n\nMay 2025 - Jul 2025 Vivacity Tech PBC, St. Paul, MN\n\nMaintained and enhanced the customer-facing application for managing device telemetry and incident reporting.\nDeveloped new features using React.js, Express.js, Redis, and PostgreSQL that automated incident reporting, improving response efficiency.\nCollaborated with a cross-functional team in an Agile development using Jira and Confluence.\n\n\n\n\nApr 2024 - Present Brigham Young University Idaho, Rexburg, ID\n\nMentor 100+ students in advanced SQL, database design, and optimization, contributing to 20% higher success rates.\nConduct weekly lab sessions and provide one-on-one tutoring on complex database concepts.\n\n\n\n\nSep 2024 - Nov 2024 UpUnikSelf Inc., Dover, DE\n\nBuilt responsive B2B platform with Next.js and TypeScript, integrating 100+ database tables.\nOptimized performance: 40% reduced API latency, 30% smaller bundle size, and 35% faster queries.\nImplemented responsive design and worked with backend teams to design efficient API endpoints."
   },
   {
-    "objectID": "resume.html#publications",
-    "href": "resume.html#publications",
-    "title": "Isaac Newtons’s CV",
+    "objectID": "resume.html#projects",
+    "href": "resume.html#projects",
+    "title": "Ashish Jain’s Resume",
     "section": "",
-    "text": "1669 Newton Sir I, De analysi per æquationes numero terminorum infinitas.\n1669 Lectiones opticæ.\netc. etc. etc.\n\n\n\n2012 Infinitesimal calculus for solutions to physics problems, SMBC patent 001"
-  },
-  {
-    "objectID": "resume.html#occupation",
-    "href": "resume.html#occupation",
-    "title": "Isaac Newtons’s CV",
-    "section": "",
-    "text": "1600 Royal Mint, London\n\nWarden\nMinted coins\n\n1600 Lucasian professor of Mathematics, Cambridge University"
+    "text": "Expected Dec 2026\n\nEngineered a full-stack IoT platform using a Java Spring Boot RestAPI Backend and a Vue.js frontend with TailwindCSS and Pinia.\nArchitected a real-time data ingestion system using Mosquitto MQTT, storing data in a PostgreSQL database configured with a Primary/Replica architecture for scalability.\nImplemented Redis caching to optimize data retrieval and a robust, role-based access control system.\n\n\n\n\n\nDesigned and developed a responsive landing page using modern Vue.js frontend and TailwindCSS.\nIntegrated a serverless backend with Cloudflare Workers to manage API endpoints and automate dynamic functions like contact form submissions.\nImplemented a component-based architecture and managed application state with Pinia.\n\n\n\n\n\nDeveloped a collaborative floor booking platform for students, simplifying the apartment search and application process.\nUtilized SvelteKit for the frontend and Supabase (BaaS) for real-time data management, authentication, and file storage.\nArchitected a GraphQL API to provide a single, flexible endpoint for data fetching, reducing over-fetching and improving application speed.\n\n\n\n\n\nDeveloped a Vue.js web app with TMDB API integration, optimized caching, and reduced load times by 30%.\nImplemented modular architecture and CI/CD pipeline deployment on Netlify with a responsive design."
   },
   {
     "objectID": "Machine_Learning/project5.html",

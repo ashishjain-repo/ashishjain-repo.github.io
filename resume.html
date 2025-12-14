@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Isaac Newtons’s CV – Your_Name - Data Science Portfolio</title>
+<title>Ashish Jain’s Resume – Your_Name - Data Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -306,21 +335,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#isaac-newton" id="toc-isaac-newton" class="nav-link active" data-scroll-target="#isaac-newton">Isaac Newton</a>
+  <li><a href="#ashish-jain" id="toc-ashish-jain" class="nav-link active" data-scroll-target="#ashish-jain">Ashish Jain</a>
   <ul class="collapse">
-  <li><a href="#currently" id="toc-currently" class="nav-link" data-scroll-target="#currently">Currently</a>
-  <ul class="collapse">
-  <li><a href="#specialized-in" id="toc-specialized-in" class="nav-link" data-scroll-target="#specialized-in">Specialized in</a></li>
-  <li><a href="#research-interests" id="toc-research-interests" class="nav-link" data-scroll-target="#research-interests">Research interests</a></li>
-  </ul></li>
   <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#awards" id="toc-awards" class="nav-link" data-scroll-target="#awards">Awards</a></li>
-  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a>
+  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a>
   <ul class="collapse">
-  <li><a href="#journals" id="toc-journals" class="nav-link" data-scroll-target="#journals">Journals</a></li>
-  <li><a href="#patents" id="toc-patents" class="nav-link" data-scroll-target="#patents">Patents</a></li>
+  <li><a href="#system-developer" id="toc-system-developer" class="nav-link" data-scroll-target="#system-developer">System Developer</a></li>
+  <li><a href="#software-engineer-intern" id="toc-software-engineer-intern" class="nav-link" data-scroll-target="#software-engineer-intern">Software Engineer Intern</a></li>
+  <li><a href="#sql-teaching-assistant" id="toc-sql-teaching-assistant" class="nav-link" data-scroll-target="#sql-teaching-assistant">SQL Teaching Assistant</a></li>
+  <li><a href="#frontend-developer-intern" id="toc-frontend-developer-intern" class="nav-link" data-scroll-target="#frontend-developer-intern">Frontend Developer Intern</a></li>
   </ul></li>
-  <li><a href="#occupation" id="toc-occupation" class="nav-link" data-scroll-target="#occupation">Occupation</a></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a>
+  <ul class="collapse">
+  <li><a href="#ev-resilience-freelance---data-collection-iot-platform" id="toc-ev-resilience-freelance---data-collection-iot-platform" class="nav-link" data-scroll-target="#ev-resilience-freelance---data-collection-iot-platform">Ev-Resilience (Freelance) - Data Collection IoT Platform</a></li>
+  <li><a href="#ev-resilience-freelance-corporate-landing-page" id="toc-ev-resilience-freelance-corporate-landing-page" class="nav-link" data-scroll-target="#ev-resilience-freelance-corporate-landing-page">Ev-Resilience (Freelance) Corporate Landing Page</a></li>
+  <li><a href="#floorbooking-student-housing-finder" id="toc-floorbooking-student-housing-finder" class="nav-link" data-scroll-target="#floorbooking-student-housing-finder">FloorBooking Student Housing Finder</a></li>
+  <li><a href="#moviedb-movie-and-tv-guide" id="toc-moviedb-movie-and-tv-guide" class="nav-link" data-scroll-target="#moviedb-movie-and-tv-guide">MovieDB Movie and TV Guide</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -331,7 +362,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Isaac Newtons’s CV</h1>
+<h1 class="title">Ashish Jain’s Resume</h1>
 </div>
 
 
@@ -348,68 +379,97 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="isaac-newton" class="level1">
-<h1>Isaac Newton</h1>
-<p>Physicist, Mathematician, Cambridge professor.</p>
+<section id="ashish-jain" class="level1">
+<h1>Ashish Jain</h1>
+<p>System Developer, Software Engineer.</p>
 <div id="webaddress">
-<p><a href="isaac@applesdofall.org">isaac@applesdofall.org</a> | <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a></p>
+<p><a href="mailto:ashish@ashjain.com">ashish@ashjain.com</a> | 651-235-2629 | <a href="http://github.com/ashishjain-repo">github.com/ashishjain-repo</a> | <a href="http://linkedin.com/in/ashishjain1008">linkedin.com/in/ashishjain1008</a> | <a href="http://ashjain.com">ashjain.com</a></p>
 </div>
-<section id="currently" class="level2">
-<h2 class="anchored" data-anchor-id="currently">Currently</h2>
-<p>Standing on the shoulders of giants</p>
-<section id="specialized-in" class="level3">
-<h3 class="anchored" data-anchor-id="specialized-in">Specialized in</h3>
-<p>Laws of motion, gravitation, minting coins, disliking <a href="http://en.wikipedia.org/wiki/Robert_Hooke">Robert Hooke</a></p>
-</section>
-<section id="research-interests" class="level3">
-<h3 class="anchored" data-anchor-id="research-interests">Research interests</h3>
-<p>Cooling, power series, optics, alchemy, planetary motions, apples.</p>
-</section>
-</section>
 <section id="education" class="level2">
 <h2 class="anchored" data-anchor-id="education">Education</h2>
-<p><code>1654-1660</code> <strong>The King’s School, Grantham.</strong></p>
-<p><code>June 1661 - now</code> <strong>Trinity College, Cambridge</strong></p>
+<p><code>Expected Dec 2026</code> <strong>Brigham Young University - Idaho</strong>, Rexburg, ID</p>
 <ul>
-<li>Sizar</li>
-</ul>
-<p><code>1667 - death</code> <strong>Trinity College, Cambridge</strong></p>
-<ul>
-<li>Fellow</li>
+<li>Bachelor of Science in Computer Science</li>
+<li>Minor: Web Development</li>
+<li>Concentration: Machine Learning</li>
+<li>GPA: <span class="math inline">\(3.9/4.0\)</span></li>
 </ul>
 </section>
-<section id="awards" class="level2">
-<h2 class="anchored" data-anchor-id="awards">Awards</h2>
-<p><code>2012</code> President, <em>Royal Society</em>, London, UK</p>
-<p>Associate, <em>French Academy of Science</em>, Paris, France</p>
-</section>
-<section id="publications" class="level2">
-<h2 class="anchored" data-anchor-id="publications">Publications</h2>
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-<section id="journals" class="level3">
-<h3 class="anchored" data-anchor-id="journals">Journals</h3>
-<p><code>1669</code> Newton Sir I, De analysi per æquationes numero terminorum infinitas.</p>
-<p><code>1669</code> Lectiones opticæ.</p>
-<p>etc. etc. etc.</p>
-</section>
-<section id="patents" class="level3">
-<h3 class="anchored" data-anchor-id="patents">Patents</h3>
-<p><code>2012</code> Infinitesimal calculus for solutions to physics problems, <a href="http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml">SMBC</a> patent 001</p>
-</section>
-</section>
-<section id="occupation" class="level2">
-<h2 class="anchored" data-anchor-id="occupation">Occupation</h2>
-<p><code>1600</code> <strong>Royal Mint</strong>, London</p>
+<section id="experience" class="level2">
+<h2 class="anchored" data-anchor-id="experience">Experience</h2>
+<section id="system-developer" class="level3">
+<h3 class="anchored" data-anchor-id="system-developer">System Developer</h3>
+<p><code>May 2025 - Present</code> <strong>Brigham Young University Idaho</strong>, Rexburg, ID</p>
 <ul>
-<li>Warden</li>
-<li>Minted coins</li>
+<li>Automated BYUI Support Center workflows and maintained legacy Java Spring Boot applications.</li>
+<li>Developed Team Dynamix iPaaS solutions, reducing manual intervention by 50%.</li>
+<li>Implemented Genesys support and troubleshot complex system issues in production environments.</li>
+<li>Streamlined internal processes.</li>
 </ul>
-<p><code>1600</code> <strong>Lucasian professor of Mathematics</strong>, Cambridge University</p>
-<!-- ### Footer
+</section>
+<section id="software-engineer-intern" class="level3">
+<h3 class="anchored" data-anchor-id="software-engineer-intern">Software Engineer Intern</h3>
+<p><code>May 2025 - Jul 2025</code> <strong>Vivacity Tech PBC</strong>, St.&nbsp;Paul, MN</p>
+<ul>
+<li>Maintained and enhanced the customer-facing application for managing device telemetry and incident reporting.</li>
+<li>Developed new features using React.js, Express.js, Redis, and PostgreSQL that automated incident reporting, improving response efficiency.</li>
+<li>Collaborated with a cross-functional team in an Agile development using Jira and Confluence.</li>
+</ul>
+</section>
+<section id="sql-teaching-assistant" class="level3">
+<h3 class="anchored" data-anchor-id="sql-teaching-assistant">SQL Teaching Assistant</h3>
+<p><code>Apr 2024 - Present</code> <strong>Brigham Young University Idaho</strong>, Rexburg, ID</p>
+<ul>
+<li>Mentor 100+ students in advanced SQL, database design, and optimization, contributing to 20% higher success rates.</li>
+<li>Conduct weekly lab sessions and provide one-on-one tutoring on complex database concepts.</li>
+</ul>
+</section>
+<section id="frontend-developer-intern" class="level3">
+<h3 class="anchored" data-anchor-id="frontend-developer-intern">Frontend Developer Intern</h3>
+<p><code>Sep 2024 - Nov 2024</code> <strong>UpUnikSelf Inc.</strong>, Dover, DE</p>
+<ul>
+<li>Built responsive B2B platform with Next.js and TypeScript, integrating 100+ database tables.</li>
+<li>Optimized performance: 40% reduced API latency, 30% smaller bundle size, and 35% faster queries.</li>
+<li>Implemented responsive design and worked with backend teams to design efficient API endpoints.</li>
+</ul>
+</section>
+</section>
+<section id="projects" class="level2">
+<h2 class="anchored" data-anchor-id="projects">Projects</h2>
+<section id="ev-resilience-freelance---data-collection-iot-platform" class="level3">
+<h3 class="anchored" data-anchor-id="ev-resilience-freelance---data-collection-iot-platform">Ev-Resilience (Freelance) - Data Collection IoT Platform</h3>
+<p><code>Expected Dec 2026</code></p>
+<ul>
+<li>Engineered a full-stack IoT platform using a Java Spring Boot RestAPI Backend and a Vue.js frontend with TailwindCSS and Pinia.</li>
+<li>Architected a real-time data ingestion system using Mosquitto MQTT, storing data in a PostgreSQL database configured with a Primary/Replica architecture for scalability.</li>
+<li>Implemented Redis caching to optimize data retrieval and a robust, role-based access control system.</li>
+</ul>
+</section>
+<section id="ev-resilience-freelance-corporate-landing-page" class="level3">
+<h3 class="anchored" data-anchor-id="ev-resilience-freelance-corporate-landing-page">Ev-Resilience (Freelance) Corporate Landing Page</h3>
+<ul>
+<li>Designed and developed a responsive landing page using modern Vue.js frontend and TailwindCSS.</li>
+<li>Integrated a serverless backend with Cloudflare Workers to manage API endpoints and automate dynamic functions like contact form submissions.</li>
+<li>Implemented a component-based architecture and managed application state with Pinia.</li>
+</ul>
+</section>
+<section id="floorbooking-student-housing-finder" class="level3">
+<h3 class="anchored" data-anchor-id="floorbooking-student-housing-finder">FloorBooking Student Housing Finder</h3>
+<ul>
+<li>Developed a collaborative floor booking platform for students, simplifying the apartment search and application process.</li>
+<li>Utilized SvelteKit for the frontend and Supabase (BaaS) for real-time data management, authentication, and file storage.</li>
+<li>Architected a GraphQL API to provide a single, flexible endpoint for data fetching, reducing over-fetching and improving application speed.</li>
+</ul>
+</section>
+<section id="moviedb-movie-and-tv-guide" class="level3">
+<h3 class="anchored" data-anchor-id="moviedb-movie-and-tv-guide">MovieDB Movie and TV Guide</h3>
+<ul>
+<li>Developed a Vue.js web app with TMDB API integration, optimized caching, and reduced load times by 30%.</li>
+<li>Implemented modular architecture and CI/CD pipeline deployment on Netlify with a responsive design.</li>
+</ul>
 
-Last updated: May 2013 -->
 
-
+</section>
 </section>
 </section>
 
