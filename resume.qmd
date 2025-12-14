@@ -1,89 +1,86 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Ashish Jain's Resume
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Ashish Jain
+System Developer, Software Engineer.
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="mailto:ashish@ashjain.com">ashish@ashjain.com</a>
+| 651-235-2629
+| <a href="http://github.com/ashishjain-repo">github.com/ashishjain-repo</a>
+| <a href="http://linkedin.com/in/ashishjain1008">linkedin.com/in/ashishjain1008</a>
+| <a href="http://ashjain.com">ashjain.com</a>
 </div>
-
-
-## Currently
-
-Standing on the shoulders of giants
-
-### Specialized in
-
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
-
-
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
 
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`Expected Dec 2026`
+__Brigham Young University - Idaho__, Rexburg, ID
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+- Bachelor of Science in Computer Science
+- Minor: Web Development
+- Concentration: Machine Learning
+- GPA: $3.9/4.0$
 
-- Sizar
+## Experience
 
-`1667 - death`
-__Trinity College, Cambridge__
+### System Developer
+`May 2025 - Present`
+__Brigham Young University Idaho__, Rexburg, ID
 
-- Fellow
+- Automated BYUI Support Center workflows and maintained legacy Java Spring Boot applications.
+- Developed Team Dynamix iPaaS solutions, reducing manual intervention by 50%.
+- Implemented Genesys support and troubleshot complex system issues in production environments.
+- Streamlined internal processes.
 
+### Software Engineer Intern
+`May 2025 - Jul 2025`
+__Vivacity Tech PBC__, St. Paul, MN
 
+- Maintained and enhanced the customer-facing application for managing device telemetry and incident reporting.
+- Developed new features using React.js, Express.js, Redis, and PostgreSQL that automated incident reporting, improving response efficiency.
+- Collaborated with a cross-functional team in an Agile development using Jira and Confluence.
 
-## Awards
+### SQL Teaching Assistant
+`Apr 2024 - Present`
+__Brigham Young University Idaho__, Rexburg, ID
 
-`2012`
-President, *Royal Society*, London, UK
+- Mentor 100+ students in advanced SQL, database design, and optimization, contributing to 20% higher success rates.
+- Conduct weekly lab sessions and provide one-on-one tutoring on complex database concepts.
 
-Associate, *French Academy of Science*, Paris, France
+### Frontend Developer Intern
+`Sep 2024 - Nov 2024`
+__UpUnikSelf Inc.__, Dover, DE
 
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+- Built responsive B2B platform with Next.js and TypeScript, integrating 100+ database tables.
+- Optimized performance: 40% reduced API latency, 30% smaller bundle size, and 35% faster queries.
+- Implemented responsive design and worked with backend teams to design efficient API endpoints.
 
 
+## Projects
 
-<!-- ### Footer
+### Ev-Resilience (Freelance) - Data Collection IoT Platform
+`Expected Dec 2026`
 
-Last updated: May 2013 -->
+- Engineered a full-stack IoT platform using a Java Spring Boot RestAPI Backend and a Vue.js frontend with TailwindCSS and Pinia.
+- Architected a real-time data ingestion system using Mosquitto MQTT, storing data in a PostgreSQL database configured with a Primary/Replica architecture for scalability.
+- Implemented Redis caching to optimize data retrieval and a robust, role-based access control system.
+
+### Ev-Resilience (Freelance) Corporate Landing Page
+
+- Designed and developed a responsive landing page using modern Vue.js frontend and TailwindCSS.
+- Integrated a serverless backend with Cloudflare Workers to manage API endpoints and automate dynamic functions like contact form submissions.
+- Implemented a component-based architecture and managed application state with Pinia.
+
+### FloorBooking Student Housing Finder
+
+- Developed a collaborative floor booking platform for students, simplifying the apartment search and application process.
+- Utilized SvelteKit for the frontend and Supabase (BaaS) for real-time data management, authentication, and file storage.
+- Architected a GraphQL API to provide a single, flexible endpoint for data fetching, reducing over-fetching and improving application speed.
+
+### MovieDB Movie and TV Guide
+
+- Developed a Vue.js web app with TMDB API integration, optimized caching, and reduced load times by 30%.
+- Implemented modular architecture and CI/CD pipeline deployment on Netlify with a responsive design.
